@@ -1,24 +1,4 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Payoff!!（自分と向き合うアプリ）
+  ### コロナの影響でネガティブになりがちなので、少しでも承認欲求を満たして元気を出していこうよ、というアプリです。
+    ・「ここにある後悔はあなたの後悔の蓄積です。少しずつ人生の後悔をなくしていきましょう」
+    ・「ここにあるのはあなたの人生における徳の蓄積です。少しずつ人生の得を積んでいきましょう」
