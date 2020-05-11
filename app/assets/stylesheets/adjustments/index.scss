@@ -1,0 +1,21 @@
+.body {
+  color: $letter-color;
+  .header {
+    background-color: $header-background-color;
+    height: calc(10vh - 1px);
+    border-bottom: 1px solid $border-color;
+  }
+  .contents {
+    display: flex;
+    &__left {
+      background-color: $left-background-color;
+      border-right: 0.5px solid $border-color;
+      @include contents-default 
+    }
+    &__right {
+      background-color: $right-background-color;
+      border-left: 0.5px solid $border-color;
+      @include contents-default 
+    }
+  }
+}
