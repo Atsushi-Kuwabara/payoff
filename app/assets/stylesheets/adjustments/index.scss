@@ -1,0 +1,64 @@
+.header {
+  box-sizing: border-box;
+  height: 10vh;
+  width: 100vw;
+  position: fixed;
+  color: $letter-color;
+  background-color: $header-background-color;
+  border-bottom: 1px solid $border-color;
+  line-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+  padding: 0 5vw;
+  &__title {
+    font-weight: bold;
+    font-size: 3vh;
+    a {
+      @include link-decoration
+    }
+  }
+  &__search {
+    .search-field {
+      border: 1px solid $border-color;
+      background-color: $header-background-color;
+      border-radius: 25px;
+      padding: 0 0.5vw;
+      font-size: 14px;
+    }
+    .search-field:focus {
+      outline: none;
+    }
+    .search-button {
+      border: none;
+      background-color: $header-background-color;
+    }
+    .search-button:focus {
+      outline: none;
+    }
+  }
+  &__nav {
+    .icon {
+      margin: 0 0.5vw;
+      font-size: 3vh;
+    }
+  }
+}
+.contents {
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  padding-top: 10vh;
+  &__left {
+    background-color: $left-background-color;
+    border-right: 0.5px solid $border-color;
+    padding: 2vh 5vw;
+    @include contents-default 
+  }
+  &__right {
+    background-color: $right-background-color;
+    border-left: 0.5px solid $border-color;
+    padding: 2vh 5vw;
+    @include contents-default 
+  }
+}

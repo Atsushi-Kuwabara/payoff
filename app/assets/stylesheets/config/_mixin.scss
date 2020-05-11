@@ -1,0 +1,9 @@
+@mixin contents-default {
+  width: 50vw;
+  overflow: scroll;
+}
+
+@mixin link-decoration {
+  text-decoration: none;
+  color: $letter-color;
+}
