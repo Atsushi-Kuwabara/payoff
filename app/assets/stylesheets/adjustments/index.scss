@@ -52,7 +52,6 @@
   &__left {
     background-color: $left-background-color;
     border-right: 0.5px solid $border-color;
-    padding: 2vh 5vw;
     @include contents-default 
   }
   &__right {
