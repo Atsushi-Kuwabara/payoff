@@ -5,7 +5,7 @@
   position: fixed;
   color: $letter-color;
   background-color: $header-background-color;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid #CCC;
   line-height: 10vh;
   display: flex;
   justify-content: space-between;
@@ -20,7 +20,7 @@
   }
   &__search {
     .search-field {
-      border: 1px solid $border-color;
+      border: 1px solid #CCC;
       background-color: $header-background-color;
       border-radius: 25px;
       padding: 0 0.5vw;
@@ -57,7 +57,6 @@
   &__right {
     background-color: $right-background-color;
     border-left: 0.5px solid $border-color;
-    padding: 2vh 5vw;
     @include contents-default 
   }
 }

@@ -3,7 +3,7 @@ a {
 }
 .adjustment {
   color: $letter-color;
-  padding: 2vh 2vw 1vh 2vw;
+  padding: 2vh 2vw 1vh 5vw;
   &__title {
     font-weight: bold;
   }
@@ -12,8 +12,8 @@ a {
   }
 }
 .buttons {
-  border-bottom: 0.5px solid $adjustment-border;
-  padding: 0 2vw 1.5vh 2vw;
+  border-bottom: 0.5px solid $border-color;
+  padding: 0 2vw 1.5vh 5vw;
   .icon {
     margin-right:2vw;
   }
